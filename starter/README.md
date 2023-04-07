@@ -36,7 +36,7 @@ Only a subset of the dataset was chosen in order to accelerate the training proc
 ### Data overview
 Sample bin images:
 
-![sample images in dataset](sample_dataset_images.png "Sample images in dataset")
+![sample images in dataset](sample_image.png "Sample images in dataset")
 
 ### Data preprocessing
 The downloaded data needed to be separated into subgroups for training and validation. The following categories of photos were used for this project:
@@ -71,7 +71,9 @@ Following training, the model can be used from a variety of Amazon services. The
 
 ## Model Inference
 We may make predictions based on the source photos using the deployed model. Let's use an illustration like this:
+
 ![Test image](test_image.jpg "Test image")
+
 The number of items in this image network was properly predicted to be 4, which corresponds to the image label. It demonstrates that the network functions successfully even when the objects are challenging for humans to count (based on provided image).
 
 Example code for model inference:
