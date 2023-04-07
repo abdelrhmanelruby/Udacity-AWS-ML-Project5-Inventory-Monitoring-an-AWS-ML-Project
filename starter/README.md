@@ -60,7 +60,7 @@ After determining which hyperparameters might be the best, I started the trainin
 
 ### Model evaluation and debugging
 SageMaker Debugger was activated and produced the following plot during the training process:
-![Cross Entropy](training_debug_values.png "Cross Entropy plot")
+![Cross Entropy](debug_values.png "Cross Entropy plot")
 ![Loss function - Cross Entropy](loss.png "Loss function - Cross Entropy plot")
 ![Accuracy](accuracy.png "Accuracy")
 
